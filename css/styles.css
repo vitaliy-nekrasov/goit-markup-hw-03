@@ -1,0 +1,204 @@
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+.address {
+  font-style: normal;
+}
+:root {
+  --main-font: 'Roboto', sans-serif;
+  --main-color: #212121;
+  --secondary-color: #757575;
+  --logo-color: #000000;
+  --accent-color: #2196f3;
+  --hero-background-color: #2f303a;
+  --btn-text-color: #ffffff;
+  --team-background-color: #f5f4fa;
+  --portfolio-btn-back-color: #f5f4fa;
+  --contacts-link-color: rgba(255, 255, 255, 0.6);
+}
+body {
+  font-family: var(--main-font);
+  color: var(--main-color);
+}
+/*########## HEADER ############*/
+.header {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.link-logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--logo-color);
+}
+.accent {
+  color: var(--accent-color);
+}
+.menu-link {
+  color: var(--main-color);
+}
+.contact-link {
+  color: var(--secondary-color);
+}
+.menu-link:hover,
+.menu-link:focus {
+  color: var(--accent-color);
+}
+.contact-link:hover,
+.contact-link:focus {
+  color: var(--accent-color);
+}
+.studio {
+  color: var(--accent-color);
+}
+.portfolio {
+  color: var(--accent-color);
+}
+
+/*########## MAIN ############*/
+/*########## HERO ############*/
+.hero {
+  background-color: var(--hero-background-color);
+}
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--btn-text-color);
+}
+.modal-btn {
+  font-family: var(--main-font);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--btn-text-color);
+  background-color: var(--accent-color);
+  cursor: pointer;
+}
+/*########## ABOUT US ############*/
+.about-us-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.about-us-item {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--secondary-color);
+}
+/*########## OUR WORK ############*/
+.title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+/*########## OUR TEAM ############*/
+.our-team {
+  background-color: var(--team-background-color);
+}
+.team-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.team-prof {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--secondary-color);
+}
+/*########## PORTFOLIO (PAGE) ############*/
+.hidden {
+  visibility: hidden;
+}
+.portfolio-btn {
+  font-family: var(--main-font);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  background-color: var(--portfolio-btn-back-color);
+  cursor: pointer;
+}
+
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+  color: var(--btn-text-color);
+  background-color: var(--accent-color);
+}
+
+.portfolio-btn-all {
+  color: #ffffff;
+  background-color: var(--accent-color);
+}
+.portfolio-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.portfolio-item {
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+  color: var(--secondary-color);
+}
+.portfolio-card {
+  background-color: var(--btn-text-color);
+}
+
+/*########## FOOTER ############*/
+.footer {
+  background-color: var(--hero-background-color);
+}
+.link-logo-footer {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--btn-text-color);
+}
+.address-link {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--btn-text-color);
+}
+.contacts-link {
+  font-size: 14px;
+  line-height: 1.71px;
+  letter-spacing: 0.03em;
+  color: var(--contacts-link-color);
+}
+.address-link:hover,
+.address-link:focus {
+  color: var(--accent-color);
+}
+.contacts-link:hover,
+.contacts-link:focus {
+  color: var(--accent-color);
+}
