@@ -7,6 +7,15 @@
 .address {
   font-style: normal;
 }
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  outline: 2px solid tomato;
+  background-color: aquamarine;
+}
 :root {
   --main-font: 'Roboto', sans-serif;
   --main-color: #212121;
@@ -29,6 +38,10 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+}
+.header-list {
+  margin-top: 0;
+  margin-bottom: 0;
 }
 .link-logo {
   font-family: 'Raleway', sans-serif;
@@ -75,6 +88,9 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--btn-text-color);
+
+  margin-top: 0;
+  margin-bottom: 30px;
 }
 .modal-btn {
   font-family: var(--main-font);
@@ -88,6 +104,10 @@ body {
   color: var(--btn-text-color);
   background-color: var(--accent-color);
   cursor: pointer;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+
+  padding: 10px 32px;
 }
 /*########## ABOUT US ############*/
 .about-us-title {
