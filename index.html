@@ -24,22 +24,24 @@
   <body>
     <!-- ################# HEADER ############## -->
     <header class="header container">
-      <nav>
+      <nav class="head">
         <a class="link link-logo" href="./index.html" lang="en"
           ><span class="accent">Web</span>Studio</a
         >
         <ul class="list header-list">
-          <li><a class="link menu-link studio" href="">Студия</a></li>
-          <li><a class="link menu-link" href="./portfolio.html">Портфолио</a></li>
-          <li><a class="link menu-link" href="">Контакты</a></li>
+          <li class="item"><a class="link menu-link studio" href="">Студия</a></li>
+          <li class="item"><a class="link menu-link" href="./portfolio.html">Портфолио</a></li>
+          <li class="item"><a class="link menu-link" href="">Контакты</a></li>
+        </ul>
+        <ul class="list header-list">
+          <li class="item">
+            <a class="link contact-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+          </li>
+          <li class="item">
+            <a class="link contact-link" href="tel:+380961111111">+38 096 111 11 11</a>
+          </li>
         </ul>
       </nav>
-      <ul class="list header-list">
-        <li>
-          <a class="link contact-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
-        </li>
-        <li><a class="link contact-link" href="tel:+380961111111">+38 096 111 11 11</a></li>
-      </ul>
     </header>
     <main class="main">
       <!-- ############## HERO ############### -->
@@ -53,25 +55,25 @@
       <section class="about">
         <div class="container">
           <ul class="list about-us">
-            <li>
+            <li class="item">
               <h3 class="about-us-title">Внимание к деталям</h3>
               <p class="about-us-item">
                 Идейные соображения, а также начало повседневной работы по формированию позиции.
               </p>
             </li>
-            <li>
+            <li class="item">
               <h3 class="about-us-title">Пунктуальность</h3>
               <p class="about-us-item">
                 Задача организации, в особенности же рамки и место обучения кадров влечет за собой.
               </p>
             </li>
-            <li>
+            <li class="item">
               <h3 class="about-us-title">Планирование</h3>
               <p class="about-us-item">
                 Равным образом консультация с широким активом в значительной степени обуславливает.
               </p>
             </li>
-            <li>
+            <li class="item">
               <h3 class="about-us-title">Современные технологии</h3>
               <p class="about-us-item">
                 Значимость этих проблем настолько очевидна, что реализация плановых заданий.
@@ -83,9 +85,9 @@
       <!-- ############## OUR WORK ############### -->
       <section class="works">
         <div class="container">
-          <h2 class="title">Чем мы занимаемся</h2>
-          <ul class="list">
-            <li>
+          <h2 class="title title-work">Чем мы занимаемся</h2>
+          <ul class="list list-work">
+            <li class="item">
               <img
                 src="./images/how_we_doing/img1.jpg"
                 alt="Сотрудник печатает на клавиатуре"
@@ -93,7 +95,7 @@
                 height="294"
               />
             </li>
-            <li>
+            <li class="item">
               <img
                 src="./images/how_we_doing/img2.jpg"
                 alt="Сотрудник смотрит в экран ноутбука"
@@ -101,7 +103,7 @@
                 height="294"
               />
             </li>
-            <li>
+            <li class="item">
               <img
                 src="./images/how_we_doing/img3.jpg"
                 alt="Сотрудник работает на планшете"
@@ -116,7 +118,7 @@
       <section class="our-team">
         <div class="container">
           <h2 class="title title-team">Наша команда</h2>
-          <ul class="list">
+          <ul class="list team-list">
             <li class="card">
               <img
                 class="team-img"
