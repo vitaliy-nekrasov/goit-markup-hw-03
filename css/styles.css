@@ -7,6 +7,7 @@
 }
 .link {
   text-decoration: none;
+  display: inline-block;
 }
 .address {
   font-style: normal;
@@ -260,6 +261,11 @@ body {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--btn-text-color);
+
+  margin-bottom: 20px;
+}
+.list-address .item + .item {
+  margin-top: 9px;
 }
 .address-link {
   font-size: 14px;
@@ -267,14 +273,8 @@ body {
   letter-spacing: 0.03em;
   color: var(--btn-text-color);
 }
-.address {
-  margin-top: 20px;
-}
 .address .list {
   padding-left: 0;
-}
-.margin {
-  margin-bottom: 9px;
 }
 .contacts-link {
   font-size: 14px;
@@ -282,6 +282,7 @@ body {
   letter-spacing: 0.03em;
   color: var(--contacts-link-color);
 }
+
 .address-link:hover,
 .address-link:focus {
   color: var(--accent-color);
