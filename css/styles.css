@@ -105,6 +105,8 @@ body {
 .hero {
   background-color: var(--hero-background-color);
   text-align: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 .hero-title {
   font-weight: 900;
@@ -134,10 +136,6 @@ body {
   display: inline-block;
   padding: 10px 32px;
 }
-.container-hero {
-  padding-top: 200px;
-  padding-bottom: 200px;
-}
 /*########## ABOUT US ############*/
 .section {
   padding-top: 94px;
@@ -149,6 +147,9 @@ body {
 
   margin-top: 0;
   margin-bottom: 0;
+}
+.about-us .item {
+  width: 270px;
 }
 .about-us .item + .item {
   margin-left: 30px;
@@ -206,8 +207,6 @@ body {
 .card {
   width: 270px;
   height: 368px;
-  left: 215px;
-  top: 1635px;
 
   background: var(--btn-text-color);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -220,8 +219,8 @@ body {
 .title-team {
   margin-bottom: 50px;
 }
-.team-img {
-  margin-bottom: 30px;
+.team-info {
+  padding: 30px 0px;
 }
 .team-name {
   font-weight: 500;
@@ -231,7 +230,7 @@ body {
   letter-spacing: 0.03em;
 
   margin-top: 0;
-  margin-bottom: 10;
+  margin-bottom: 10px;
 }
 .team-prof {
   font-size: 16px;
@@ -241,13 +240,11 @@ body {
   color: var(--secondary-color);
 
   margin-top: 0;
-  margin-bottom: 30;
+  margin-bottom: 0;
 }
 /*########## FOOTER ############*/
 .footer {
   background-color: var(--hero-background-color);
-}
-.footer .container {
   padding-top: 60px;
   padding-bottom: 60px;
 }
@@ -296,6 +293,7 @@ body {
 .list-btn {
   display: flex;
   justify-content: center;
+  margin-bottom: 50px;
 }
 .list-btn .item + .item {
   margin-left: 8px;
@@ -310,25 +308,24 @@ body {
   background-color: var(--portfolio-btn-back-color);
   cursor: pointer;
 
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
   border-color: transparent;
   padding: 6px 22px;
-  margin-bottom: 50px;
 }
 
 .portfolio-btn:hover,
 .portfolio-btn:focus {
   color: var(--btn-text-color);
   background-color: var(--accent-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 .card-list {
   display: flex;
   flex-wrap: wrap;
 }
-.portfolio-icon {
-  margin-bottom: 20px;
+.portfolio-card-info {
+  padding: 20px 0px;
 }
 .portfolio-title {
   font-weight: 700;
@@ -348,7 +345,7 @@ body {
   color: var(--secondary-color);
 
   margin-top: 0;
-  margin-bottom: 20px;
+  margin-bottom: 0;
   margin-left: 24px;
 }
 .portfolio-card {
